@@ -1,0 +1,211 @@
+/************************** TAG SELECTORS *******************************/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  /* centers text in all elements in body */
+  font-family: "Merriweather", serif;
+  /*  font-family: 'Mochiy Pop One', sans-serif; */
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /*  width: 10%;
+  margin: 0 auto;*/
+  /* top and bottom, left and right */
+  /* how to center */
+  /* text-align center won't work on children with width set  */
+  font-family: Arial, Helvetica, sans-serif; /*"Sacramento", cursive;*/
+  font-size: 200%;
+  /*font-size: 5rem;*/
+  /* font-size: 100% - 100% == 100% of 16px, 562.5%, 5.625em (em == M) */
+  color: black; /* #34bbef;*/
+  line-height: 1;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 200%;
+  /*font-size: 2.5rem;*/
+  color: black; /* #66bfbf;*/
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-weight: bolder;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  margin: 0;
+  line-height: 2;
+}
+hr {
+  border-color: #eaf6f6;
+  border-width: 5px;
+  border-style: dotted none none none;
+  margin: 100px auto;
+  width: 5%;
+}
+
+/************************** PSEUDO-CLASSES **************************/
+/* these are based on "states", preceded with a ":", such as _ :hover _  */
+/* Any HTML element can have more than one class but only ONE ID */
+/************************** CLASS SELECTORS *******************************/
+/* can use class on multiple things in HTML code */
+/* same style to group of related items "NAME" e.g. comments */
+
+/*
+.title-intro {
+  position: relative;
+  float: left;
+  font-size: 30%;
+  line-height: 0.25;
+}
+*/
+
+.top-container {
+  background-color: white; /*lightgoldenrodyellow; #eaf6f6;*/
+  width: 100%;
+  position: relative;
+  padding-top: 0px;
+}
+/*
+.main-pic {
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 50%;
+  float: right;
+}*/
+
+.main-pic {
+  width: 100%;
+}
+/*
+.space-container {
+  height: 100%;
+}*/
+
+.middle-container {
+  margin-top: 50px;
+  background-color: #fcfefe;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.skill-img-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-right {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  margin: 20px 30px;
+  font-family: verdana, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.copyright-statement {
+  margin: 50px auto 0 auto;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  /*  padding: 50px auto 0 auto;*/
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.profile-img {
+  width: 300px; /*20%;*/
+}
+
+.intro-statement {
+  display: inline-block;
+  line-height: 2;
+  width: 25%;
+}
+.contact-message {
+  margin: auto;
+  width: 40%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 50px auto 75px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* demonstration of how the clear property works,
+not used here though because it looks better without
+.computergirl-skill-description {
+  clear: left;
+}
+
+.language-skill-description {
+  clear: right;
+}
+*/
+/************************** ID SELECTORS *******************************/
+/* can only use an ID once in a given page of HTML */
+/* specific style to single element "PASSWORD" e.g. navigation bar, headings */
