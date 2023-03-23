@@ -1,6 +1,9 @@
 /************************** TAG SELECTORS *******************************/
 body {
-  color: #40514e;
+  /*color: black;*/
+  color: #006188;
+  /*background-image: url("deanna-piano-ipad.png");*/
+
   margin: 0;
   text-align: center;
   /* centers text in all elements in body */
@@ -16,10 +19,11 @@ h1 {
   /* how to center */
   /* text-align center won't work on children with width set  */
   font-family: Arial, Helvetica, sans-serif; /*"Sacramento", cursive;*/
-  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 350%;
   /*font-size: 5rem;*/
   /* font-size: 100% - 100% == 100% of 16px, 562.5%, 5.625em (em == M) */
-  color: black; /* #34bbef;*/
+  color: #002b5b; /* #34bbef;*/
   line-height: 1;
 }
 
@@ -27,14 +31,18 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 200%;
   /*font-size: 2.5rem;*/
-  color: black; /* #66bfbf;*/
+  color: #002b5b; /* #66bfbf;*/
   font-weight: bold;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #11999e;
+  color: #002b5b; /* #11999e;*/
   font-weight: bolder;
+}
+
+h6 {
+  color: #002b5b;
 }
 
 a {
@@ -74,10 +82,14 @@ hr {
 */
 
 .top-container {
-  background-color: white; /*lightgoldenrodyellow; #eaf6f6;*/
+  /*background-color: white;*/
+  /*lightgoldenrodyellow; #eaf6f6;*/
+  background-color: #e4dccf;
   width: 100%;
   position: relative;
+  margin-bottom: 0px;
   padding-top: 0px;
+  padding-bottom: 30px;
 }
 /*
 .main-pic {
@@ -89,6 +101,7 @@ hr {
 
 .main-pic {
   width: 100%;
+  position: relative;
 }
 /*
 .space-container {
@@ -96,12 +109,15 @@ hr {
 }*/
 
 .middle-container {
-  margin-top: 50px;
-  background-color: #fcfefe;
+  margin-top: 0px;
+  padding-top: 50px;
+  /*
+  background-color: #fcfefe;*/
+  background-color: #f9f5eb;
 }
 
 .bottom-container {
-  background-color: #66bfbf;
+  background-color: #ea5455; /* #66bfbf;*/
   padding: 40px;
 }
 
@@ -140,6 +156,7 @@ hr {
   margin: 20px 30px;
   font-family: verdana, Arial, sans-serif;
   font-weight: bold;
+  color: #f9f5eb;
 }
 
 .copyright-statement {
@@ -149,31 +166,47 @@ hr {
   /*  padding: 50px auto 0 auto;*/
 }
 
+/*
 .profile {
   margin-top: 50px;
-}
+}*/
 
 .profile-img {
-  width: 300px; /*20%;*/
+  width: 300px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
+/*
 .intro-statement {
   display: inline-block;
   line-height: 2;
   width: 25%;
+}*/
+
+.title-intro {
+  display: inline-block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
 .contact-message {
   margin: auto;
   width: 40%;
 }
 
 .btn {
+  background: #002b5b;
+
+  /*
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  */
+
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -187,13 +220,20 @@ hr {
 }
 
 .btn:hover {
+  background: #ea5455;
+  /*
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  */
   text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #002b5b;
 }
 
 /* demonstration of how the clear property works,
